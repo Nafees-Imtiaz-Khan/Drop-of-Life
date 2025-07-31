@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container, .signup-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+input, button, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+.red-button {
+    background-color: #0f0e0e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red-button:hover {
+    background-color: #c9302c;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inbox-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inbox-container h2, .inbox-container h3 {
+    text-align: center;
+    color: #333;
+}
+
+.message-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.message-item p {
+    margin: 5px 0;
+    color: #190d0d;
+    line-height: 1.5;
+}
+
+.message-button{
+    background-color: #fefdfd;
+    color: rgb(17, 1, 1);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 325px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 50%;
+}
+
+.red-button {
+    background-color: #0c0c0c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 325px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 50%;
+}
+
+.red-button:hover {
+    background-color: #dc635f;
+}
+.box{
+    /*height: 1200px;*/
+    width: 1300px;
+    background-color: #d49090;
+}
+.dashboard-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d9534f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; 
+    max-height: 90vh; 
+    border-radius: 10px;
+}
+
+.profile-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+
+.profile-button img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-button img:hover {
+    transform: scale(1.1);
+}
+
+.box2{
+    width: 2000px;
+    background-color: #fbf8f8;
+}
+
+.inb{
+    background-color: #e10909;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 325px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 38%;
+    
+}
+.inb:hover{
+    background-color: #514e4e;
+    color: black
+}
+
+.green-button {
+    background-color: #0bfb83;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 325px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 50%;
+
+}
